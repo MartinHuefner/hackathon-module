@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-app.get('/health', (req, res) => {
+app.get('/test/hackathon-module/health', (req, res) => {
   res.json({ status: 'ok' });
 });
 
