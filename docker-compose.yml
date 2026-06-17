@@ -8,7 +8,7 @@ services:
       - cpp-edge
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.hackathon-module.rule=PathPrefix(`/api/hackathon-module`)"
+      - "traefik.http.routers.hackathon-module.rule=PathPrefix(`/test/hackathon-module`)"
       - "traefik.http.services.hackathon-module.loadbalancer.server.port=3000"
 
 networks:

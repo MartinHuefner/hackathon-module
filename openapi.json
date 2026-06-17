@@ -21,7 +21,7 @@
         }
       }
     },
-    "/api/hackathon-module": {
+    "/test/hackathon-module": {
       "get": {
         "summary": "HTML page with image and confirmation message",
         "responses": {

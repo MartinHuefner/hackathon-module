@@ -12,7 +12,7 @@ app.get('/openapi.json', (req, res) => {
   res.sendFile(path.join(__dirname, 'openapi.json'));
 });
 
-app.get('/api/hackathon-module', (req, res) => {
+app.get('/test/hackathon-module', (req, res) => {
   res.set('Content-Type', 'text/html');
   res.send(`<!doctype html>
 <html lang="en">

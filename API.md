@@ -10,7 +10,7 @@ Endpoints:
   { "status": "ok" }
   ```
 
-- `GET /api/hackathon-module` - Returns a simple HTML page that shows the requested photo and a confirmation message.
+- `GET /test/hackathon-module` - Returns a simple HTML page that shows the requested photo and a confirmation message.
 
   Response: 200 (text/html)
 
