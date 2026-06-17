@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  hackathon-module:
+    build: .
+    ports:
+      - "3000:3000"
+    networks:
+      - cpp-edge
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.hackathon-module.rule=PathPrefix(`/api/hackathon-module`)"
+      - "traefik.http.services.hackathon-module.loadbalancer.server.port=3000"
+
+networks:
+  cpp-edge:
+    external: true

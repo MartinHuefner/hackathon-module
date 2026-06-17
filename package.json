@@ -1,0 +1,15 @@
+{
+  "name": "hackathon-module",
+  "version": "0.1.0",
+  "description": "Simple module showing a photo and a confirmation message",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
