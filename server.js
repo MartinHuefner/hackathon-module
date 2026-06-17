@@ -8,7 +8,7 @@ app.get('/test/hackathon-module/health', (req, res) => {
 
 // Serve OpenAPI spec
 const path = require('path');
-app.get('/openapi.json', (req, res) => {
+app.get('/test/hackathon-module/openapi.json', (req, res) => {
   res.sendFile(path.join(__dirname, 'openapi.json'));
 });
 
