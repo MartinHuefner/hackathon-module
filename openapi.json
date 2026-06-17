@@ -1,0 +1,33 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Hackathon Module API",
+    "version": "0.1.0",
+    "description": "Minimal OpenAPI spec for the Hackathon Module"
+  },
+  "paths": {
+    "/health": {
+      "get": {
+        "summary": "Health check",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "example": { "status": "ok" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/hackathon-module": {
+      "get": {
+        "summary": "HTML page with image and confirmation message",
+        "responses": {
+          "200": { "description": "text/html" }
+        }
+      }
+    }
+  }
+}

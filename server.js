@@ -6,6 +6,12 @@ app.get('/health', (req, res) => {
   res.json({ status: 'ok' });
 });
 
+// Serve OpenAPI spec
+const path = require('path');
+app.get('/openapi.json', (req, res) => {
+  res.sendFile(path.join(__dirname, 'openapi.json'));
+});
+
 app.get('/api/hackathon-module', (req, res) => {
   res.set('Content-Type', 'text/html');
   res.send(`<!doctype html>
