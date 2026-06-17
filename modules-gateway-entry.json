@@ -1,0 +1,16 @@
+{
+  "repo": {
+    "id": "martin-hackathon-repo",
+    "repoUrl": "https://github.com/MartinHuefner/hackathon-module.git",
+    "branch": "main"
+  },
+  "module": {
+    "name": "Hackathon Module",
+    "team": 0,
+    "route": "/hackathon-module",
+    "repoId": "martin-hackathon-repo",
+    "healthCheck": "http://hackathon-module:3000/health",
+    "docsUrl": "http://hackathon-module:3000/openapi.json",
+    "adminUrl": "http://hackathon-module:3000/admin"
+  }
+}
