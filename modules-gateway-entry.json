@@ -9,7 +9,7 @@
     "team": 0,
     "route": "/hackathon-module",
     "repoId": "martin-hackathon-repo",
-    "healthCheck": "http://hackathon-module:8010/health",
-    "docsUrl": "http://hackathon-module:8010/openapi.json"
+    "healthCheck": "http://hackathon-module:3000/health",
+    "docsUrl": "http://hackathon-module:3000/openapi.json"
   }
 }
