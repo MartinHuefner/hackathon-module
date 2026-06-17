@@ -24,6 +24,7 @@ app.get('/test/hackathon-module', (req, res) => {
   <body>
     <img src="https://app.tech-riders.de/p/2364/photo" alt="module photo" style="max-width:100%;height:auto;" />
     <p>I was able to create a module</p>
+    <p>The module should only show the picture from https://app.tech-riders.de/p/2364/photo and say "I was able to create a module".</p>
   </body>
 </html>`);
 });
